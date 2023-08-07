@@ -47,3 +47,32 @@
     linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
   );
 }
+
+@media screen and (max-width: 48rem) {
+  .header {
+    margin-bottom: 11.62rem;
+    padding: 0 2.5rem;
+  }
+
+  .header--primary-heading {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1.56rem;
+  }
+
+  .header--description {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem;
+    margin-bottom: 1.56rem;
+    width: 24.8rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.9rem 2.3rem;
+  }
+}

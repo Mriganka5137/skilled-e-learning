@@ -19,3 +19,22 @@
   border-radius: 0.9375rem;
   background: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
 }
+
+@media screen and (max-width: 48rem) {
+  .courses-section-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2.44rem;
+    padding-bottom: 5.4rem;
+    column-gap: 0.63rem;
+    row-gap: 3.5rem;
+  }
+
+  .popular-courses {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2rem;
+    width: 21.1875rem;
+    padding: 3.5rem 1.3rem 8.7rem 2rem;
+  }
+}

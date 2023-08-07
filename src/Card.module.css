@@ -47,3 +47,21 @@
   left: 2rem;
   top: -1.5rem;
 }
+
+@media screen and (max-width: 48rem) {
+  .card {
+    width: 21.25rem;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+  }
+  .description {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .link {
+    bottom: 2rem;
+  }
+}

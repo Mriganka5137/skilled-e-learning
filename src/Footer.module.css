@@ -37,3 +37,18 @@
     linear-gradient(180deg, #4851ff 0%, #f02aa6 100%)
   );
 }
+
+@media screen and (max-width: 48rem) {
+  .footer {
+    padding: 2.25rem 2.5rem;
+  }
+  .logo {
+    width: 5.56rem;
+    /* height: 1.7rem; */
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+  }
+}

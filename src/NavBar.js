@@ -3,7 +3,7 @@ import logo from "./assets/logo-dark.svg";
 function NavBar() {
   return (
     <nav className={styles.navbar}>
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" className={styles.logo} />
       <button className={styles.btn}>Get Started</button>
     </nav>
   );

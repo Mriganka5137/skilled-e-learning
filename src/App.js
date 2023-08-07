@@ -2,6 +2,7 @@ import styles from "./App.module.css";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import DesktopHero from "./assets/image-hero-desktop.png";
+import TabletHero from "./assets/image-hero-tablet.png";
 import Courses from "./Courses";
 import Footer from "./Footer";
 function App() {
@@ -9,9 +10,10 @@ function App() {
     <main className={styles.container}>
       <NavBar />
       <Header />
-      <img src={DesktopHero} alt="hero" className={styles["hero--desktop"]} />
       <Courses />
       <Footer />
+      <img src={DesktopHero} alt="hero" className={styles["hero--desktop"]} />
+      <img src={TabletHero} alt="hero" className={styles["hero--tablet"]} />
     </main>
   );
 }

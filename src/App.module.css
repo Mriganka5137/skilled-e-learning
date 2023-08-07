@@ -1,8 +1,6 @@
 .container {
   max-width: 90rem;
   margin: 0 auto;
-  /* height: 115rem; */
-  border: 2px solid green;
   /* padding: 0 10.36rem; */
   position: relative;
   overflow: hidden;
@@ -13,4 +11,24 @@
   top: -9.13rem;
   right: -20.18rem;
   z-index: -1;
+}
+.hero--tablet {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    max-width: 48rem;
+  }
+
+  .hero--desktop {
+    display: none;
+  }
+
+  .hero--tablet {
+    display: block;
+    position: absolute;
+    top: -5.7rem;
+    right: -18.6rem;
+  }
 }
