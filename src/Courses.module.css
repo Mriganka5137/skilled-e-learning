@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (max-width: 23.4375rem) {
+@media screen and (max-width: 26.5625rem) {
   .courses-section-container {
     grid-template-columns: 1fr;
     padding: 0 1rem;
@@ -48,5 +48,6 @@
   }
   .popular-courses {
     padding: 2rem 1.8rem;
+    width: 26.5625rem;
   }
 }

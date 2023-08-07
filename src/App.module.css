@@ -37,9 +37,9 @@
   }
 }
 
-@media screen and (max-width: 23.4375rem) {
+@media screen and (max-width: 26.5625rem) {
   .container {
-    max-width: 23.4375rem;
+    max-width: 26.5625rem;
   }
 
   .hero--tablet {

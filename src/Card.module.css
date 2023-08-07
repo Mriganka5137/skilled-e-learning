@@ -67,7 +67,10 @@
   }
 }
 
-@media screen and (max-width: 23.4375rem) {
+@media screen and (max-width: 26.5625rem) {
+  .card {
+    width: 26.5625rem;
+  }
   .description {
     font-size: 1rem;
     margin-top: 1rem;
