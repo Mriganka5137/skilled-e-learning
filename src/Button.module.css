@@ -1,0 +1,11 @@
+:global .btn {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  padding: 0.9rem 2rem;
+  border-radius: 1.75rem;
+  cursor: pointer;
+}

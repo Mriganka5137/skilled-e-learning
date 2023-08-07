@@ -1,9 +1,17 @@
 import styles from "./App.module.css";
 import NavBar from "./NavBar";
+import Header from "./Header";
+import DesktopHero from "./assets/image-hero-desktop.png";
+import Courses from "./Courses";
+import Footer from "./Footer";
 function App() {
   return (
     <main className={styles.container}>
       <NavBar />
+      <Header />
+      <img src={DesktopHero} alt="hero" className={styles["hero--desktop"]} />
+      <Courses />
+      <Footer />
     </main>
   );
 }

@@ -1,0 +1,39 @@
+.footer {
+  background-color: #13183f;
+  padding: 2rem 10.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 7rem;
+  /* height: 1.7rem; */
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  padding: 0.9rem 2rem;
+  border-radius: 1.75rem;
+  cursor: pointer;
+  color: var(--color-white);
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
+
+.btn:hover {
+  border-radius: 1.75rem;
+  background: var(
+    --gradient-2-hover,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #4851ff 0%, #f02aa6 100%)
+  );
+}

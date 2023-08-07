@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 11.5rem;
+  padding: 0 10.36rem;
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  padding: 0.9rem 2rem;
+  border-radius: 1.75rem;
+  cursor: pointer;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.btn:hover {
+  background-color: var(--color-violet);
+}
