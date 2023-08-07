@@ -76,3 +76,23 @@
     padding: 0.9rem 2.3rem;
   }
 }
+
+@media screen and (max-width: 23.4375rem) {
+  .header {
+    margin-bottom: 25.81rem;
+    padding: 0 1rem;
+  }
+
+  .header--primary-heading {
+    margin-bottom: 1.62rem;
+  }
+
+  .header--description {
+    width: 21.4375rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.9rem 2.3rem;
+  }
+}

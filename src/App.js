@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import DesktopHero from "./assets/image-hero-desktop.png";
 import TabletHero from "./assets/image-hero-tablet.png";
+import MobileHero from "./assets/image-hero-mobile@2x.png";
 import Courses from "./Courses";
 import Footer from "./Footer";
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Footer />
       <img src={DesktopHero} alt="hero" className={styles["hero--desktop"]} />
       <img src={TabletHero} alt="hero" className={styles["hero--tablet"]} />
+      <img src={MobileHero} alt="hero" className={styles["hero--mobile"]} />
     </main>
   );
 }

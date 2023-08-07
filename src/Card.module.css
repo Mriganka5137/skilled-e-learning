@@ -1,6 +1,6 @@
 .card {
   width: 21.875rem;
-  height: 20.125rem;
+  /* height: 20.125rem; */
   padding: 4rem 2rem 2.5rem 2rem;
   border-radius: 0.9375rem;
   position: relative;
@@ -32,10 +32,11 @@
   color: var(--color-hot-pink);
   cursor: pointer;
   /* border: 1px solid gray; */
-  display: inline;
-  position: absolute;
+  /* display: inline; */
+  /* position: absolute; */
   /* left: 0; */
-  bottom: 2.5rem;
+  /* bottom: 2.5rem; */
+  margin-top: 3.25rem;
 }
 
 .link:hover {
@@ -58,10 +59,20 @@
   }
   .description {
     font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .link {
-    bottom: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 23.4375rem) {
+  .description {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .link {
+    margin-top: 1.5rem;
   }
 }

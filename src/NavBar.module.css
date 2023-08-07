@@ -40,3 +40,10 @@
     padding: 0.5rem 1.5rem;
   }
 }
+
+@media screen and (max-width: 23.4375rem) {
+  .navbar {
+    padding: 0 1rem;
+    margin-bottom: 2.37rem;
+  }
+}
